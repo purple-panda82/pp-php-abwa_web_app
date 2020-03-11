@@ -1,0 +1,17 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Cameron
+ * Date: 3/12/2018
+ * Time: 11:18 AM
+ */
+
+
+    $connection = mysqli_connect('localhost:3306', ' camerony_admin', 'Dk82PalaDin', 'camerony_abwa');
+
+    if (!$connection) {
+        die("DB not connected");
+    }
+
+
+?>

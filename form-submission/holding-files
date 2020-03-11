@@ -1,0 +1,54 @@
+<div class="container">
+        <h1>ABWA Web App</h1>
+        <hr>
+        <div class="row mb-3">
+            <div  class="col-md-4">
+                <h2>Ship Portal</h2>
+            </div>
+            <div  class="col-md-8">
+                <a class="btn btn-primary" href="public/portals/ship/ship-create.php">Create Ship</a>
+                <a class="btn btn-primary" href="public/portals/ship/ship-read.php">View Ships</a>
+                <a class="btn btn-primary" href="public/portals/ship/ship-delete.php">Delete Ship</a>
+                <a class="btn btn-primary" href="public/portals/assignment/ship-client.php">Assign Client</a>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div  class="col-md-4">
+                <h2>Client Portal</h2>
+            </div>
+            <div  class="col-md-8">
+                <a class="btn btn-primary" href="public/portals/client/client-create.php">Create Client</a>
+                <a class="btn btn-primary" href="public/portals/client/client-read.php">View Clients</a>
+                <a class="btn btn-primary" href="public/portals/client/client-delete.php">Delete Client</a>
+                <a class="btn btn-primary" href="public/portals/assignment/ship-client.php">Assign Ship</a>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div  class="col-md-4">
+                <h2>Crew Portal</h2>
+            </div>
+            <div  class="col-md-8">
+                <a class="btn btn-primary mr-1" href="public/portals/crew/profile/crew-create.php">Create Profile</a>
+                <a class="btn btn-primary mr-1" href="public/portals/crew/profile/crew-read.php">View Profiles</a>
+                <a class="btn btn-primary mr-1" href="public/portals/crew/profile/crew-delete.php">Delete Profile</a>
+                <a class="btn btn-primary" href="public/portals/crew/timesheet/timesheet-create.php">Create Timesheet</a>
+                <a class="btn btn-primary" href="public/portals/assignment/timesheet-crew.php">Assign Timesheet</a>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <h2>Jobsheet Portal</h2>
+            </div>
+            <div class="col-md-8">
+                <a class="btn btn-primary mr-1" href="public/portals/jobsheet/general/jobsheet-create.php">Create Jobsheet</a>
+                <a class="btn btn-primary mr-1" href="public/portals/jobsheet/general/jobsheet-read.php">View Jobsheet</a>
+                <a class="btn btn-primary mr-1" href="public/portals/jobsheet/general/jobsheet-delete.php">Delete Jobsheet</a>
+                <a class="btn btn-primary mr-1" href="public/portals/assignment/passengers-jobsheets.php">Assign Passengers</a>
+                <a class="btn btn-primary" href="public/portals/assignment/options-jobsheets.php">Assign Options</a>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <a class="btn btn-primary" href="http://www.abwa.com.au/"><h2>ABWA Home</h2></a>
+        </div>
+    </div>

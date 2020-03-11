@@ -1,0 +1,591 @@
+/** -- General List Option Database Queries */
+
+// Retrieve Different Roles
+//function displayRoles() {
+//    global $connection;
+//    $query = "SELECT * FROM `abwa_staff_role` WHERE 1";
+//    $result = mysqli_query($connection, $query);
+//    if (!$result) {
+//        die('Query failed:');
+//    };
+//
+//    while($row = mysqli_fetch_assoc($result)) {
+//        $role_code = $row['role_code'];
+//        $role = $row['role'];
+//        echo "<option value='$role_code'>$role</option>";
+//    }
+//}
+
+// Retrieve Different Roles
+//function displayLocations() {
+//    global $connection;
+//    $query = "SELECT * FROM `locations` WHERE 1";
+//    $result = mysqli_query($connection, $query);
+//    if (!$result) {
+//        die('Query failed:');
+//    };
+//
+//    while($row = mysqli_fetch_assoc($result)) {
+//        $location_code = $row['location_code'];
+//        $location = $row['location'];
+//        echo "<option value='$location_code'>$location</option>";
+//    }
+//}
+
+// Retrieve Different Roles
+//function displayABWAVessel() {
+//    global $connection;
+//    $query = "SELECT * FROM `abwa_vessel` WHERE 1";
+//    $result = mysqli_query($connection, $query);
+//    if (!$result) {
+//        die('Query failed:');
+//    };
+//
+//    while($row = mysqli_fetch_assoc($result)) {
+//        $vessel_code = $row['vessel_code'];
+//        $vessel_name = $row['vessel_name'];
+//        echo "<option value='$vessel_code'>$vessel_name</option>";
+//    }
+//}
+
+/** -- Ship Database Queries  */
+
+// Get and display Ship IMO_NUM and SHIP_NAME for select-option fields
+//function displayAllShipData() {
+//    global $connection;
+//    $query = "SELECT * FROM `ship` WHERE 1";
+//    $result = mysqli_query($connection, $query);
+//    if (!$result) {
+//        die('Query failed:');
+//    };
+//
+//    while($row = mysqli_fetch_assoc($result)) {
+//        $imoNum = $row['imo'];
+//        $shipName = $row['ship_name'];
+//        echo "<option value='$imoNum'>$shipName</option>";
+//    }
+//}
+
+// Get and display all Ship data for complete ship display
+//function displayShipData() {
+//    global $connection;
+//    $query = "SELECT * FROM `ship` WHERE 1";
+//
+//    $result = mysqli_query($connection, $query);
+//
+//    if (!$result) {
+//        die('Query failed:');
+//    };
+//
+//
+//    while($row = mysqli_fetch_assoc($result)) {
+//        echo "<div class=\"card\" style='width: 250px;'>";
+//        echo "<div class=\"card-body\">";
+//        echo "<h5 class=\"card-title\">".$row['ship_name']."</h5>";
+//        echo "<p class=\"card-text\">".$row['imo']."</p>";
+//        echo "<p class=\"card-text\">".$row['abwa_contacted']."</p>";
+//        echo "</div>";
+//        echo "</div>";
+//    }
+//
+//}
+
+// Create a new Ship and inputs it into the database
+//function createNewShip() {
+//    global $connection;
+//    date_default_timezone_set('Australia/Perth');
+//
+//    $date = new DateTime('now');
+//    $time = new DateTime('now');
+//    $date_string = $date->format('Y-m-d H:i:s');
+//    $time_string = $time->format('H:i:s');
+//
+//        $imo_number = $_POST['imo_number'];
+//        $ship_name = $_POST['ship_name'];
+//        $select_file = isset($_POST['select_file']) ? $_POST['select_file'] : 'ship_default.png';
+//        $entered_by = isset($_POST['entered_by']) ? $_POST['entered_by'] : 'General Admin';
+//        $date_entered = $date_string;
+//        $time_entered = $time_string;
+//        $abwa_contacted = isset($_POST['abwa_contacted']) ? $_POST['abwa_contacted'] : 0;
+//
+//        $query = "INSERT INTO `ship` (`imo`, `ship_name`, `select_file`, `entered_by`, `date_entered`, `time_entered`, `abwa_contacted`) VALUES ('$imo_number', '$ship_name', '$select_file', '$entered_by', '$date_entered', '$time_entered', '$abwa_contacted')";
+//
+//
+//        $result = mysqli_query($connection, $query);
+//
+//        if(!$result) {
+//            die('Query failed:' . mysqli_error($connection));
+//        };
+//}
+
+// Delete a Ship from the database
+//function deleteShipData() {
+//    global $connection;
+//    if(isset($_POST['delete'])) {
+//        $imo_number = $_POST['imo_number'];
+//
+//
+//        $query = "DELETE FROM `ship` WHERE `ship`.`imo` = '$imo_number'";
+//
+//        $result = mysqli_query($connection, $query);
+//        if (!$result) {
+//            die('Query failed:' . mysqli_error($connection));
+//        };
+//
+//    };
+//}
+
+
+/** -- Client Database Queries */
+
+// Get and display Client ID and Name for select-option fields
+//function displayAllClientData() {
+//    global $connection;
+//    $query = "SELECT * FROM `client` WHERE 1";
+//    $result = mysqli_query($connection, $query);
+//    if (!$result) {
+//        die('Query failed:');
+//    };
+//
+//    while($row = mysqli_fetch_assoc($result)) {
+//        $id = $row['id'];
+//        $full_name = $row['first_name']." ".$row['last_name'];
+//        echo "<option value='$id'>$full_name</option>";
+//    }
+//}
+
+// Get and display all Client data for complete ship display
+//function displayClientData() {
+//    global $connection;
+//    $query = "SELECT * FROM `client` WHERE 1";
+//
+//    $result = mysqli_query($connection, $query);
+//
+//    if (!$result) {
+//        die('Query failed:');
+//    };
+//
+//
+//    while($row = mysqli_fetch_assoc($result)) {
+//        echo "<div class=\"card\" style='width: 250px;'>";
+//        echo "<div class=\"card-body\">";
+//        echo "<h5 class=\"card-title\">".$row['first_name']." ".$row['last_name']."</h5>";
+//        echo "<p class=\"card-text\">".$row['country_code']." ".$row['phone']."</p>";
+//        echo "<p class=\"card-text\">".$row['email']."</p>";
+//        echo "</div>";
+//        echo "</div>";
+//    }
+//
+//}
+
+// Create a new Client and inputs it into the database
+//function createNewClient() {
+//    global $connection;
+//
+//    $first_name = $_POST['first_name'];
+//    $last_name = $_POST['last_name'];
+//    $role = $_POST['client_role'];
+//    $client_code = $_POST['client_code'];
+//    $country_code = $_POST['country_code'];
+//    $ph_type = $_POST['ph_type'];
+//    $phone = $_POST['phone'];
+//    $email = $_POST['email'];
+//
+//    $unit_no = $_POST['unit_no'];
+//    $street_no = $_POST['street_no'];
+//    $street_name = $_POST['street_name'];
+//    $suburb = $_POST['suburb'];
+//    $locality = $_POST['locality'];
+//    $state_province = $_POST['state_province'];
+//    $postcode = $_POST['postcode'];
+//    $country = $_POST['country'];
+//
+//    $query = "INSERT INTO `client` (`id`, `first_name`, `last_name`, `role`, `client_code`, `unit_no`, `street_no`, `steet_name`, `suburb`, `locality`, `state_province`, `country`, `postcode`, `country_code`, `phone`, `ph_type`, `email`, `ship_imo`) VALUES (NULL, '$first_name', '$last_name', '$role', '$client_code', '$unit_no', '$street_no', '$street_name', '$suburb', '$locality', '$state_province', '$country', '$postcode', '$country_code', '$phone', '$ph_type', '$email', '0')";
+//
+//
+//
+//    $resultClient = mysqli_query($connection, $query);
+//
+//    if(!$resultClient) {
+//        die('Query failed:' . mysqli_error($connection));
+//    };
+//
+//}
+
+// Delete a Client from the database
+//function deleteClientData() {
+//    global $connection;
+//        $id = $_POST['id'];
+//
+//
+//        $query = "DELETE FROM `client` WHERE `client`.`id` = '$id'";
+//
+//        $result = mysqli_query($connection, $query);
+//        if (!$result) {
+//            die('Query failed:' . mysqli_error($connection));
+//        };
+//}
+
+/** -- Jobsheets Database Queries  */
+
+// Get single Jobsheet for select-option fields
+//function displayAllJobSheetData() {
+//    global $connection;
+//    $query = "SELECT * FROM jobsheet WHERE 1";
+//    $result = mysqli_query($connection, $query);
+//    if (!$result) {
+//        die('Query failed:');
+//    };
+//
+//    while($row = mysqli_fetch_assoc($result)) {
+//        $jobsheet_id = $row['id'];
+//        $abwa_job_no = $row['abwa_job_no'];
+//        echo "<option value='$jobsheet_id'>$abwa_job_no</option>";
+//    }
+//}
+
+// Get and display all Jobsheet data for complete ship display
+//function displayJobsheetData() {
+//    global $connection;
+//    $query = "SELECT * FROM `jobsheet` WHERE 1";
+//
+//    $result = mysqli_query($connection, $query);
+//
+//    if (!$result) {
+//        die('Query failed:');
+//    };
+//
+//
+//    while($row = mysqli_fetch_assoc($result)) {
+//        echo "<div class=\"card\" style='width: 250px;'>";
+//        echo "<div class=\"card-body\">";
+//        echo "<h5 class=\"card-title\">" . $row['abwa_job_no'] . "</h5>";
+//        echo "<p class=\"card-text\">" . $row['job_date'] . ": Start at " . $row['start_time'] . ": End at " . $row['end_time']. "</p>";
+//        echo "<p class=\"card-text\">".$row['attending_ship_name']."</p>";
+//        echo "<a href='../options/jobsheet-options-create.php' class='btn btn-primary'>Add Options</a>";
+//        echo "<a href='../passengers/passengers-create.php' class='btn btn-primary'>Add Passengers</a>";
+//        echo "</div>";
+//        echo "</div>";
+//    }
+//
+//}
+
+// Create a new Jobsheet and inputs it into the database
+//function createNewJobsheet() {
+//    global $connection;
+//
+//    $created_by = $_POST['created_by'];
+//    $approved_by = $_POST['approved_by'];
+//    $issued_by = $_POST['issued_by'];
+//    $revision_no = $_POST['revision_no'];
+//    $issued_date = $_POST['issued_date'];
+//    $abwa_job_no = $_POST['abwa_job_no'];
+//    $job_date = $_POST['job_date'];
+//    $start_time = $_POST['start_time'];
+//    $end_time = $_POST['end_time'];
+//    $port_of_origin = $_POST['port_of_origin'];
+//    $vessel = $_POST['vessel'];
+//    $assigned_master = $_POST['assigned_master'];
+//    $assigned_crew_one = $_POST['assigned_crew_one'];
+//    $assigned_crew_two = $_POST['assigned_crew_two'];
+//    $attending = $_POST['attending'];
+//    $attending_ship_name = $_POST['attending_ship_name'];
+//    $outer_port_limit = $_POST['outer_port_limit'];
+//    $inner_port = $_POST['inner_port'];
+//    $outer_port = $_POST['outer_port'];
+//    $anchorage = $_POST['anchorage'];
+//    $berth_anchorage = $_POST['berth_anchorage'];
+//    $transfer = $_POST['transfer'];
+//    $lines_boat = $_POST['lines_boat'];
+//    $drill = $_POST['drill'];
+//
+//
+//    $query = "INSERT INTO `jobsheet` (`id`, `created_by`, `approved_by`, `issued_by`, `revision_no`, `issued_date`, `abwa_job_no`, `job_date`, `start_time`, `end_time`, `port_of_origin`, `vessel`, `assigned_master`, `assigned_crew_one`, `assigned_crew_two`, `attending`, `attending_ship_name`, `outer_port_limit`, `inner_port`, `outer_port`, `archorage`, `berth_anchorage`, `transfer`, `lines_boat`, `drill`) VALUES (null, '$created_by', '$approved_by', '$issued_by', '$revision_no', '$issued_date', '$abwa_job_no', '$job_date', '$start_time', '$end_time', '$port_of_origin', '$vessel', '$assigned_master', '$assigned_crew_one', '$assigned_crew_two', '$attending', '$attending_ship_name', '$outer_port_limit', '$inner_port', '$outer_port', '$anchorage', '$berth_anchorage', '$transfer', '$lines_boat', '$drill')";
+//
+//
+//    $result = mysqli_query($connection, $query);
+//
+//    if(!$result) {
+//        die('Query failed:' . mysqli_error($connection));
+//    };
+//}
+
+// Delete a Jobsheet from the database
+//function deleteJobsheetData() {
+//    global $connection;
+//    if(isset($_POST['delete'])) {
+//        $id = $_POST['id'];
+//
+//
+//        $query = "DELETE FROM `jobsheet` WHERE `jobsheet`.`id` = '$id'";
+//
+//        $result = mysqli_query($connection, $query);
+//        if (!$result) {
+//            die('Query failed:' . mysqli_error($connection));
+//        };
+//
+//    };
+//}
+
+/** -- Jobsheets Options Database Queries */
+
+// Get single Jobsheet Options for select-option fields
+//function displayAllOptionstData() {
+//    global $connection;
+//    $query = "SELECT * FROM jobsheet_options WHERE 1";
+//    $result = mysqli_query($connection, $query);
+//    if (!$result) {
+//        die('Query failed:');
+//    };
+//
+//    while($row = mysqli_fetch_assoc($result)) {
+//        $id = $row['id'];
+//        echo "<option value='$id'>$id</option>";
+//    }
+//}
+
+// Get and display all Jobsheet Options data for complete ship display
+//function displayJobsheetOptionsData() {
+//    global $connection;
+//    $query = "SELECT * FROM `jobsheet` WHERE 1";
+//
+//    $result = mysqli_query($connection, $query);
+//
+//    if (!$result) {
+//        die('Query failed:');
+//    };
+//
+//
+//    while($row = mysqli_fetch_assoc($result)) {
+//        echo "<div class=\"card\" style='width: 250px;'>";
+//        echo "<div class=\"card-body\">";
+//        echo "<h5 class=\"card-title\">" . $row['abwa_job_no'] . "</h5>";
+//        echo "<p class=\"card-text\">" . $row['job_date'] . ": Start at " . $row['start_time'] . ": End at " . $row['end_time']. "</p>";
+//        echo "<p class=\"card-text\">".$row['attending_ship_name']."</p>";
+//        echo "</div>";
+//        echo "</div>";
+//    }
+//
+//}
+
+// Create a new Jobsheet Options and inputs it into the database
+//function createNewJobsheetOptions() {
+//    global $connection;
+//
+//    $berth = $_POST['berth'];
+//    $berth_hours = $_POST['berth_hours'];
+//    $berth_days = $_POST['berth_days'];
+//    $mooring = $_POST['mooring'];
+//    $mooring_hours = $_POST['mooring_hours'];
+//    $mooring_days = $_POST['mooring_days'];
+//    $crane = $_POST['crane'];
+//    $crane_hours = $_POST['crane_hours'];
+//    $crane_days = $_POST['crane_days'];
+//    $truck = $_POST['truck'];
+//    $truck_hours = $_POST['truck_hours'];
+//    $truck_days = $_POST['truck_days'];
+//    $fenders = $_POST['fenders'];
+//    $fenders_hours = $_POST['fenders_hours'];
+//    $fenders_days = $_POST['fenders_days'];
+//    $utility = $_POST['utility'];
+//    $utility_hours = $_POST['utility_hours'];
+//    $utility_days = $_POST['utility_days'];
+//    $other = $_POST['other'];
+//    $other_hours = $_POST['other_hours'];
+//    $other_days = $_POST['other_days'];
+//    $fab_welder = $_POST['fab_welder'];
+//    $fab_welder_hours = $_POST['fab_welder_hours'];
+//    $fab_welder_days = $_POST['fab_welder_days'];
+//    $naval_arch = $_POST['naval_arch'];
+//    $naval_arch_hours = $_POST['naval_arch_hours'];
+//    $naval_arch_days = $_POST['naval_arch_days'];
+//    $gp_labour_security = $_POST['gp_labour_security'];
+//    $gp_labour_security_hours = $_POST['gp_labour_security_hours'];
+//    $gp_labour_security_days = $_POST['gp_labour_security_days'];
+//    $ship_wright = $_POST['ship_wright'];
+//    $ship_wright_hours = $_POST['ship_wright_hours'];
+//    $ship_wright_days = $_POST['ship_wright_days'];
+//    $carpenter = $_POST['carpenter'];
+//    $carpenter_hours = $_POST['carpenter_hours'];
+//    $carpenter_days = $_POST['carpenter_days'];
+//    $notes_comments = $_POST['notes_comments'];
+//
+//
+//    $query = "INSERT INTO `jobsheet_options` (`id`, `berth`, `berth_hours`, `berth_days`, `mooring`, `mooring_hours`, `mooring_days`, `crane`, `crane_hours`, `crane_days`, `truck`, `truck_hours`, `truck_days`, `fenders`, `fenders_hours`, `fenders_days`, `utility`, `utility_hours`, `utility_days`, `other`, `other_hours`, `other_days`, `fab_welder`, `fab_welder_hours`, `fab_welder_days`, `naval_arch`, `naval_arch_hours`, `naval_arch_days`, `gp_labour_security`, `gp_labour_security_hours`, `gp_labour_security_days`, `ship_wright`, `ship_wright_hours`, `ship_wright_days`, `carpenter`, `carpenter_hours`, `carpenter_days`, `notes_comments`, `jobsheet_id`) VALUES (NULL, '$berth', '$berth_hours', '$berth_days', '$mooring', '$mooring_hours', '$mooring_days', '$crane', '$crane_hours', '$crane_days', '$truck', '$truck_hours', '$truck_days', '$fenders', '$fenders_hours', '$fenders_days', '$utility', '$utility_hours', '$utility_days', '$other', '$other_hours', '$other_days', '$fab_welder', '$fab_welder_hours', '$fab_welder_days', '$naval_arch', '$naval_arch_hours', '$naval_arch_days', '$gp_labour_security', '$gp_labour_security_hours', '$gp_labour_security_days', '$ship_wright', '$ship_wright_hours', '$ship_wright_days', '$carpenter', '$carpenter_hours', '$carpenter_days', '$notes_comments', '0')";
+//
+//
+//    $result = mysqli_query($connection, $query);
+//
+//    if(!$result) {
+//        die('Query failed:' . mysqli_error($connection));
+//    };
+//}
+
+// Delete a Jobsheet from the database
+//function deleteJobsheetDataOptions() {
+//    global $connection;
+//    if(isset($_POST['delete'])) {
+//        $id = $_POST['id'];
+//
+//
+//        $query = "DELETE FROM `jobsheet` WHERE `jobsheet`.`id` = '$id'";
+//
+//        $result = mysqli_query($connection, $query);
+//        if (!$result) {
+//            die('Query failed:' . mysqli_error($connection));
+//        };
+//
+//    };
+//}
+
+/** -- Jobsheets Passengers Database Queries */
+
+// Get single Jobsheet Passengers for select-option fields
+//function displayAllJobSheetPassengersData() {
+//    global $connection;
+//    $query = "SELECT * FROM passenger WHERE 1";
+//    $result = mysqli_query($connection, $query);
+//    if (!$result) {
+//        die('Query failed:');
+//    };
+//
+//    while($row = mysqli_fetch_assoc($result)) {
+//        $id = $row['id'];
+//        $full_name = $row['initial'] . " " . $row['surname'];
+//        echo "<option value='$id'>$full_name</option>";
+//    }
+//}
+
+// Get and display all Jobsheet Passengers data for complete ship display
+//function displayJobsheetPassengersData() {
+//    global $connection;
+//    $query = "SELECT * FROM `passenger` WHERE 1";
+//
+//    $result = mysqli_query($connection, $query);
+//
+//    if (!$result) {
+//        die('Query failed:');
+//    };
+//
+//
+//    while($row = mysqli_fetch_assoc($result)) {
+//        echo "<div class=\"card\" style='width: 250px;'>";
+//        echo "<div class=\"card-body\">";
+//        echo "<h5 class=\"card-title\">" . $row['pax'] . "</h5>";
+//        echo "<p class=\"card-text\">" . $row['initial'] . " " . $row['surname'] . "</p>";
+//        echo "</div>";
+//        echo "</div>";
+//    }
+//
+//}
+
+// Create a new Jobsheet Passengers and inputs it into the database
+//function createNewJobsheetPassengers() {
+//    global $connection;
+//
+//    $jobsheet_id = '0101017';
+//    $pax = $_POST['pax'];
+//    $initial = $_POST['initial'];
+//    $surname = $_POST['surname'];
+//
+//
+//
+//    $query = "INSERT INTO `passenger` (`id`, `jobsheet_id`, `pax`, `initial`, `surname`) VALUES (null, '$jobsheet_id', '$pax', '$initial', '$surname')";
+//
+//
+//    $result = mysqli_query($connection, $query);
+//
+//    if(!$result) {
+//        die('Query failed:' . mysqli_error($connection));
+//    };
+//}
+
+// Delete a Jobsheet from the database
+//function deleteJobsheetPassengersData() {
+//    global $connection;
+//    if(isset($_POST['delete'])) {
+//        $id = $_POST['id'];
+//
+//
+//        $query = "DELETE FROM `passenger` WHERE `passenger`.`id` = '$id'";
+//
+//        $result = mysqli_query($connection, $query);
+//        if (!$result) {
+//            die('Query failed:' . mysqli_error($connection));
+//        };
+//
+//    };
+//}
+
+/** -- Assignments Database Queries  */
+// Assigns Ship IMO Number to a Specific Client
+//function assignShipClient() {
+//    global $connection;
+//
+//    $ship_imo = $_POST['imo_number'];
+//    $client_id = $_POST['id'];
+//
+//
+//    $query = "UPDATE `client` SET `ship_imo` = '$ship_imo' WHERE `client`.`id` = '$client_id'";
+//
+//
+//    $result = mysqli_query($connection, $query);
+//
+//    if(!$result) {
+//        die('Query failed:' . mysqli_error($connection));
+//    };
+//}
+
+// Assigns Timesheet to a Specific Crew
+//function assignTimesheetCrew() {
+//    global $connection;
+//
+//    $crew_id = $_POST['crew_id'];
+//    $timesheet_id = $_POST['timesheet_id'];
+//
+//
+//    $query = "UPDATE `timesheet` SET `crew_id` = '$crew_id' WHERE `timesheet`.`id` = '$timesheet_id'";
+//
+//
+//    $result = mysqli_query($connection, $query);
+//
+//    if(!$result) {
+//        die('Query failed:' . mysqli_error($connection));
+//    };
+//}
+
+// Assigns Jobsheet Options to a Specific Jobsheet
+//function assignOptionJobsheet() {
+//    global $connection;
+//
+//    $jobsheet_id = $_POST['jobsheet_id'];
+//    $option_id = $_POST['option_id'];
+//
+//
+//    $query = "UPDATE `jobsheet_options` SET `jobsheet_id` = '$jobsheet_id' WHERE `jobsheet_options`.`id` = '$option_id'";
+//
+//
+//    $result = mysqli_query($connection, $query);
+//
+//    if(!$result) {
+//        die('Query failed:' . mysqli_error($connection));
+//    };
+//}
+
+// Assigns Passenger to a Specific Jobsheet
+//function assignPassengerJobsheet() {
+//    global $connection;
+//
+//    $jobsheet_id = $_POST['jobsheet_id'];
+//    $passenger_id = $_POST['passenger_id'];
+//
+//
+//    $query = "UPDATE `passenger` SET `jobsheet_id` = '$jobsheet_id' WHERE `passenger`.`id` = '$passenger_id'";
+//
+//
+//    $result = mysqli_query($connection, $query);
+//
+//    if(!$result) {
+//        die('Query failed:' . mysqli_error($connection));
+//    };
+//}

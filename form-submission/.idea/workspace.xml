@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d36459e-099f-470b-aefb-69928e3364bf" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/private/db/db_queries.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="1159" column="5" selection-start-line="1159" selection-start-column="5" selection-end-line="1159" selection-end-column="5" />
+              <folding>
+                <element signature="n#loginValidate#0;n#!!top" />
+                <element signature="n#getCrewEmails#0;n#!!top" />
+                <element signature="e#2458#2510#0#PHP" />
+                <element signature="e#3774#3824#0#PHP" />
+                <element signature="e#5956#6016#0#PHP" />
+                <element signature="n#createNewCrew#0;n#!!top" />
+                <element signature="n#displayAllCrew#0;n#!!top" />
+                <element signature="n#displayAllCrewAsList#0;n#!!top" />
+                <element signature="n#displaySingleCrewData#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+                <element signature="n#getSingleCrew#0;n#!!top" />
+                <element signature="n#editSingleCrewData#0;n#!!top" />
+                <element signature="n#getSingleCrewForDelete#0;n#!!top" />
+                <element signature="n#deleteCrewData#0;n#!!top" />
+                <element signature="n#retrieveCrewId#0;n#!!top" />
+                <element signature="n#displayShipEntry#0;n#!!top" />
+                <element signature="n#displayJobSheets#0;n#!!top" />
+                <element signature="n#addCrewCards#0;n#!!top" />
+                <element signature="n#displaySingleCrewCerts#0;n#!!top" />
+                <element signature="n#createNewShip#0;n#!!top" />
+                <element signature="n#displayAllShips#0;n#!!top" />
+                <element signature="n#displaySingleShipData#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+                <element signature="n#getSingleShip#0;n#!!top" />
+                <element signature="n#editSingleShipData#0;n#!!top" />
+                <element signature="n#getSingleShipForDelete#0;n#!!top" />
+                <element signature="n#deleteShipData#0;n#!!top" />
+                <element signature="n#createNewAgent#0;n#!!top" />
+                <element signature="n#displayAllAgents#0;n#!!top" />
+                <element signature="n#displaySingleAgentData#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+                <element signature="n#getSingleAgent#0;n#!!top" />
+                <element signature="n#selectAgency#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/portals/agents/agent-archive.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-177">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/portals/agents/agent-update.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/portals/agents/agent-view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/portals/agents/agent-view-all.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-62">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&lt;input type=&quot;text&quot; name=&quot;created_by&quot; placeholder=&quot;</find>
+      <find>btn-primary</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>$</replace>
+      <replace>btn-warning</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\Cameron\Documents\projects\mini\form-submission\public\portals</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/public/portals/jobsheet/personnel-hire-create.php" />
+        <option value="$PROJECT_DIR$/public/portals/crew/certified/crew-certs-update.php" />
+        <option value="$PROJECT_DIR$/public/portals/crew/certified/crew-certs-view.php" />
+        <option value="$PROJECT_DIR$/public/portals/crew/timesheet/timesheet-create.php" />
+        <option value="$PROJECT_DIR$/public/portals/crew/timesheet/timesheet-update.php" />
+        <option value="$PROJECT_DIR$/public/portals/crew/timesheet/timesheet-view.php" />
+        <option value="$PROJECT_DIR$/public/portals/crew/timesheet/timesheet-view-all.php" />
+        <option value="$PROJECT_DIR$/public/portals/jobsheet/cargo/cargo-view.php" />
+        <option value="$PROJECT_DIR$/public/portals/jobsheet/equipment/equipment-hire-view.php" />
+        <option value="$PROJECT_DIR$/public/portals/jobsheet/equipment/equipment-hire-edit.php" />
+        <option value="$PROJECT_DIR$/public/portals/jobsheet/passenger/passenger-manifest-view.php" />
+        <option value="$PROJECT_DIR$/public/portals/jobsheet/passenger/passenger-manifest-edit.php" />
+        <option value="$PROJECT_DIR$/public/portals/jobsheet/personnel/personnel-hire-view.php" />
+        <option value="$PROJECT_DIR$/public/portals/jobsheet/personnel/personnel-hire-edit.php" />
+        <option value="$PROJECT_DIR$/public/portals/crew/profile/crew-update.php" />
+        <option value="$PROJECT_DIR$/public/portals/crew/profile/crew-archive.php" />
+        <option value="$PROJECT_DIR$/public/portals/jobsheet/equipment/equipment-hire-create.php" />
+        <option value="$PROJECT_DIR$/public/portals/jobsheet/personnel/personnel-hire-create.php" />
+        <option value="$PROJECT_DIR$/public/portals/jobsheet/passenger/passenger-manifest-create.php" />
+        <option value="$PROJECT_DIR$/public/portals/jobsheet/cargo/cargo-create.php" />
+        <option value="$PROJECT_DIR$/public/portals/jobsheet/cargo/cargo-edit.php" />
+        <option value="$PROJECT_DIR$/public/portals/jobsheet/passenger/passenger-delete.php" />
+        <option value="$PROJECT_DIR$/public/portals/jobsheet/equipment/equipment-delete.php" />
+        <option value="$PROJECT_DIR$/public/portals/jobsheet/personnel/personnel-delete.php" />
+        <option value="$PROJECT_DIR$/public/portals/jobsheet/cargo/cargo-delete.php" />
+        <option value="$PROJECT_DIR$/public/portals/crew/certified/crew-certs-create.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/public/register.php" />
+        <option value="$PROJECT_DIR$/public/login.php" />
+        <option value="$PROJECT_DIR$/public/portals/jobsheet/jobsheet/job-sheet-view.php" />
+        <option value="$PROJECT_DIR$/public/portals/jobsheet/jobsheet/job-sheet-edit.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/public/portals/crew/profile/crew-create.php" />
+        <option value="$PROJECT_DIR$/public/portals/jobsheet/jobsheet/job-sheet-create.php" />
+        <option value="$PROJECT_DIR$/public/portals/jobsheet/jobsheet/job-sheet-view-all.php" />
+        <option value="$PROJECT_DIR$/private/includes/crew-call.php" />
+        <option value="$PROJECT_DIR$/public/portals/crew/profile/crew-view.php" />
+        <option value="$PROJECT_DIR$/public/portals/crew/profile/crew-view-all.php" />
+        <option value="$PROJECT_DIR$/private/db/db_connection.php" />
+        <option value="$PROJECT_DIR$/public/portals/ship/ship-view-all.php" />
+        <option value="$PROJECT_DIR$/public/portals/ship/ship-view.php" />
+        <option value="$PROJECT_DIR$/public/portals/ship/ship-update.php" />
+        <option value="$PROJECT_DIR$/public/portals/ship/ship-create.php" />
+        <option value="$PROJECT_DIR$/public/portals/ship/ship-archive.php" />
+        <option value="$PROJECT_DIR$/public/portals/agents/agent-archive.php" />
+        <option value="$PROJECT_DIR$/public/portals/agents/agent-view-all.php" />
+        <option value="$PROJECT_DIR$/public/portals/agents/agent-create.php" />
+        <option value="$PROJECT_DIR$/styles.css" />
+        <option value="$PROJECT_DIR$/public/portals/agents/agent-view.php" />
+        <option value="$PROJECT_DIR$/public/portals/agents/agent-update.php" />
+        <option value="$PROJECT_DIR$/private/db/db_queries.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="form-submission" type="b2602c69:ProjectViewProjectNode" />
+              <item name="form-submission" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="form-submission" type="b2602c69:ProjectViewProjectNode" />
+              <item name="form-submission" type="462c0819:PsiDirectoryNode" />
+              <item name="private" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="form-submission" type="b2602c69:ProjectViewProjectNode" />
+              <item name="form-submission" type="462c0819:PsiDirectoryNode" />
+              <item name="private" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="form-submission" type="b2602c69:ProjectViewProjectNode" />
+              <item name="form-submission" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="form-submission" type="b2602c69:ProjectViewProjectNode" />
+              <item name="form-submission" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="portals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="form-submission" type="b2602c69:ProjectViewProjectNode" />
+              <item name="form-submission" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="portals" type="462c0819:PsiDirectoryNode" />
+              <item name="agents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="form-submission" type="b2602c69:ProjectViewProjectNode" />
+              <item name="form-submission" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="portals" type="462c0819:PsiDirectoryNode" />
+              <item name="ship" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Cameron\Documents\projects\mini\form-submission\private\db" />
+      <recent name="C:\Users\Cameron\Documents\projects\mini\form-submission\public" />
+      <recent name="C:\Users\Cameron\Documents\projects\mini\form-submission\public\portals\jobsheet\equipment" />
+      <recent name="C:\Users\Cameron\Documents\projects\mini\form-submission\public\portals\jobsheet\passenger" />
+      <recent name="C:\Users\Cameron\Documents\projects\mini\form-submission\public\portals\jobsheet\personnel" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Cameron\Documents\projects\mini\form-submission\public\portals\jobsheet\personnel" />
+      <recent name="C:\Users\Cameron\Documents\projects\mini\form-submission\public\portals\jobsheet\passenger" />
+      <recent name="C:\Users\Cameron\Documents\projects\mini\form-submission\public\portals\jobsheet\equipment" />
+      <recent name="C:\Users\Cameron\Documents\projects\mini\form-submission\public\portals\jobsheet\cargo" />
+      <recent name="C:\Users\Cameron\Documents\projects\mini\form-submission\public\portals\jobsheet\jobsheet" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d36459e-099f-470b-aefb-69928e3364bf" name="Default Changelist" comment="" />
+      <created>1543790758428</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543790758428</updated>
+      <workItem from="1543790761674" duration="3309000" />
+      <workItem from="1543796495683" duration="6671000" />
+      <workItem from="1543806981647" duration="3945000" />
+      <workItem from="1543878019997" duration="2670000" />
+      <workItem from="1543968054149" duration="12385000" />
+      <workItem from="1543999993339" duration="3021000" />
+      <workItem from="1544050092838" duration="3583000" />
+      <workItem from="1544064251148" duration="8952000" />
+      <workItem from="1544076294078" duration="11658000" />
+      <workItem from="1544093656094" duration="11187000" />
+      <workItem from="1544107712738" duration="4725000" />
+      <workItem from="1544135941343" duration="1821000" />
+      <workItem from="1544235426663" duration="4332000" />
+      <workItem from="1544400078002" duration="7912000" />
+      <workItem from="1544410161318" duration="7096000" />
+      <workItem from="1544424927640" duration="3443000" />
+      <workItem from="1544442234760" duration="4435000" />
+      <workItem from="1544480166026" duration="3279000" />
+      <workItem from="1544487025863" duration="1787000" />
+      <workItem from="1544490992923" duration="8645000" />
+      <workItem from="1544507384207" duration="5483000" />
+      <workItem from="1544514945746" duration="867000" />
+      <workItem from="1544570102594" duration="5616000" />
+      <workItem from="1544577350802" duration="8843000" />
+      <workItem from="1544588258304" duration="6364000" />
+      <workItem from="1544601131947" duration="6727000" />
+      <workItem from="1544610797635" duration="12692000" />
+      <workItem from="1544654732757" duration="3471000" />
+      <workItem from="1544664369205" duration="6167000" />
+      <workItem from="1544689484997" duration="597000" />
+      <workItem from="1544693753465" duration="19909000" />
+      <workItem from="1544738481007" duration="8616000" />
+      <workItem from="1544750961356" duration="14087000" />
+      <workItem from="1547250947826" duration="477000" />
+      <workItem from="1547251534494" duration="2577000" />
+      <workItem from="1547256573302" duration="1791000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="219140000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1386" height="788" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24585219" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23524962" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/portals/crew/timesheet/timesheet-create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="76" column="33" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/crew/certified/crew-certs-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="172" column="33" selection-start-line="172" selection-start-column="33" selection-end-line="172" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/crew/timesheet/timesheet-update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="76" column="33" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
+          <folding>
+            <element signature="e#1485#2930#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/crew/timesheet/timesheet-view-all.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/jobsheet/cargo/cargo-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#5#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/jobsheet/equipment/equipment-hire-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#5#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/jobsheet/equipment/equipment-hire-edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#5#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/jobsheet/passenger/passenger-manifest-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#5#0#PHP" />
+            <element signature="n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/jobsheet/passenger/passenger-manifest-edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#5#0#PHP" />
+            <element signature="n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/jobsheet/personnel/personnel-hire-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/jobsheet/personnel/personnel-hire-edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-177">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#5#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/holding-files">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queries.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4265" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/crew/profile/crew-archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/jobsheet/equipment/equipment-hire-create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="75" column="19" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="75" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#5#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/jobsheet/personnel/personnel-hire-create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="49" column="82" lean-forward="true" selection-start-line="49" selection-start-column="82" selection-end-line="49" selection-end-column="82" />
+          <folding>
+            <element signature="n#div#0;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/jobsheet/passenger/passenger-manifest-create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="69" column="46" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/jobsheet/cargo/cargo-create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="79" column="24" lean-forward="true" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/jobsheet/cargo/cargo-edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/jobsheet/equipment/equipment-delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/jobsheet/passenger/passenger-delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/jobsheet/personnel/personnel-delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/jobsheet/cargo/cargo-delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/crew/certified/crew-certs-create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="100" column="30" lean-forward="true" selection-start-line="100" selection-start-column="30" selection-end-line="100" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/jobsheet/jobsheet/job-sheet-edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-199">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/jobsheet/jobsheet/job-sheet-create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="187" column="8" selection-start-line="187" selection-start-column="8" selection-end-line="187" selection-end-column="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/jobsheet/jobsheet/job-sheet-view-all.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/includes/crew-call.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/crew/profile/crew-create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/crew/profile/crew-update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="52" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/crew/profile/crew-view-all.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="29" column="74" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/db/db_connection.php-online">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/db/db_connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/crew/profile/crew-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154">
+          <caret line="26" column="74" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/jobsheet/jobsheet/job-sheet-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/crew/timesheet/timesheet-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/ship/ship-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="45" column="63" selection-start-line="45" selection-start-column="63" selection-end-line="45" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/ship/ship-create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="72" column="63" selection-start-line="72" selection-start-column="63" selection-end-line="72" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/ship/ship-archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="60" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/ship/ship-update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="51" column="63" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/ship/ship-view-all.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="44" column="4" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/agents/agent-create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="73" column="120" selection-start-line="73" selection-start-column="120" selection-end-line="73" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/agents/agent-view-all.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/agents/agent-update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/agents/agent-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/portals/agents/agent-archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-177">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/db/db_queries.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="1159" column="5" selection-start-line="1159" selection-start-column="5" selection-end-line="1159" selection-end-column="5" />
+          <folding>
+            <element signature="n#loginValidate#0;n#!!top" />
+            <element signature="n#getCrewEmails#0;n#!!top" />
+            <element signature="e#2458#2510#0#PHP" />
+            <element signature="e#3774#3824#0#PHP" />
+            <element signature="e#5956#6016#0#PHP" />
+            <element signature="n#createNewCrew#0;n#!!top" />
+            <element signature="n#displayAllCrew#0;n#!!top" />
+            <element signature="n#displayAllCrewAsList#0;n#!!top" />
+            <element signature="n#displaySingleCrewData#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#getSingleCrew#0;n#!!top" />
+            <element signature="n#editSingleCrewData#0;n#!!top" />
+            <element signature="n#getSingleCrewForDelete#0;n#!!top" />
+            <element signature="n#deleteCrewData#0;n#!!top" />
+            <element signature="n#retrieveCrewId#0;n#!!top" />
+            <element signature="n#displayShipEntry#0;n#!!top" />
+            <element signature="n#displayJobSheets#0;n#!!top" />
+            <element signature="n#addCrewCards#0;n#!!top" />
+            <element signature="n#displaySingleCrewCerts#0;n#!!top" />
+            <element signature="n#createNewShip#0;n#!!top" />
+            <element signature="n#displayAllShips#0;n#!!top" />
+            <element signature="n#displaySingleShipData#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#getSingleShip#0;n#!!top" />
+            <element signature="n#editSingleShipData#0;n#!!top" />
+            <element signature="n#getSingleShipForDelete#0;n#!!top" />
+            <element signature="n#deleteShipData#0;n#!!top" />
+            <element signature="n#createNewAgent#0;n#!!top" />
+            <element signature="n#displayAllAgents#0;n#!!top" />
+            <element signature="n#displaySingleAgentData#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#getSingleAgent#0;n#!!top" />
+            <element signature="n#selectAgency#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
